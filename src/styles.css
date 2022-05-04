@@ -1,0 +1,72 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(40, 192, 159);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search,
+.submit {
+  margin-top: 20px;
+}
+.search {
+  border-radius: 3px;
+  height: 20px;
+}
+.submit {
+  margin-left: 5px;
+  height: 26px;
+  border-radius: 3px;
+  background-color: rgb(118, 118, 238);
+}
+.edit {
+  border-radius: 3px;
+  height: 20px;
+  border: 1px solid black;
+}
+.App {
+  height: 500px;
+  width: 500px;
+  background-color: aqua;
+}
+.todolist {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.todolist-input {
+  width: 200px;
+  margin-left: 24px;
+  font-weight: bold;
+}
+.btn {
+  display: flex;
+}
+.btn-delete {
+  margin-right: 5px;
+  border-radius: 3px;
+  border: 1px solid black;
+  height: 25px;
+  background-color: rgb(247, 17, 17);
+  color: white;
+}
+.btn-edit {
+  border-radius: 3px;
+  border: 1px solid black;
+  height: 25px;
+  background-color: rgb(233, 230, 41);
+  color: rgb(16, 107, 36);
+}
+.btn-save {
+  border-radius: 3px;
+  border: 1px solid black;
+  height: 25px;
+  background-color: rgb(28, 165, 28);
+  color: rgb(201, 188, 17);
+  font-size: 15px;
+}
