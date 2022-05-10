@@ -67,7 +67,7 @@ export default function App() {
               setTodo(e.target.value);
             }}
           />
-          <input type="submit" value="submit" className="submit" />
+          <input type="submit" value="Add" className="submit" />
         </form>
         <TodoList
           todo={todo}
